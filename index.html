@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Page Navigation bar-->
+    <nav class="navbar">
+      <a href="github.com/dheevyn" class="logo">Dheevyn</a>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us </a></li>
+        <li><a href="#sub-title">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Intro Page -->
+    <section class="home" id="home">
+      <div class="home-info">
+        <h4>Hello, I'm</h4>
+        <h2>Ibeh Divine</h2>
+        <h3>
+          I'm a
+          <span style="--i: 3" data-text="Frontend Developer"
+            >Frontend Developer</span
+          >
+          <span style="--i: 2" data-text="Backend Developer"
+            >Backend Developer</span
+          >
+          <span style="--i: 1" data-text="Fullstack Developer"
+            >Fullstack Developer</span
+          >
+        </h3>
+        <p>
+          I'm a Web Developer with extensive experience for over a year, my
+          expertise involves creating and designing websites, integrate Api into
+          the pages to make them fully responsive to serve its purpose and so
+          many more.
+        </p>
+        <div class="btn-sec">
+          <div class="socials">
+            <a href="https://github.com/Dheevyn"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ibeh-divine-473a771aa/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/iam_dheevyn"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="My-pic.jpg" alt="my-picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me page-->
+    <section class="about" id="about">
+      <div class="about-image">
+        <div class="about-pic">
+          <div class="about-img">
+            <img src="My-pic.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Full Stack Developer</h4>
+        <p>
+          I am a highly motivated Full-Stack Developer with two years of
+          intensive, project-based experience in the modern web technology
+          landscape. I specialize in developing, deploying, and maintaining
+          robust, high-performance web applications. My technical expertise
+          spans the entire development lifecycle. On the Frontend, I build
+          responsive, component-driven user interfaces using React, TypeScript,
+          and modern styling frameworks like Tailwind CSS, often managing state
+          with Redux or Zustand. For the Backend, I design and implement
+          scalable server-side logic and secure APIs, primarily leveraging
+          Node.js with Express, and occasionally Python (Flask). I manage
+          persistent data storage using PostgreSQL and MongoDB. My approach
+          emphasizes code quality, performance, and maintainability. I am
+          skilled in using Git for version control and employing tools like
+          Docker for containerization, ensuring applications are properly
+          deployed and available via cloud services like AWS or Netlify. I am
+          driven by the opportunity to own challenges end-to-end, transforming
+          complex business requirements into reliable, user-centric software
+          solutions.
+        </p>
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+    </section>
+
+    <!--Skills Page-->
+    <section class="services" id="sub-title">
+      <div class="container">
+        <h1 class="sub-title">My <span>services</span></h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code" style="color: #74c0fc"></i>
+            <h2>Javascript</h2>
+            <p>
+              I provides services such as front-end development for interactive
+              user interfaces, back-end scripting for server-side logic and
+              APIs, full-stack solutions using stacks like MERN, performance
+              optimization and maintenance, and specialized offerings like
+              mobile app development and testing.
+            </p>
+            <a href="#" class="read">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple" style="color: #74c0fc"></i>
+            <h2>React</h2>
+            <p>
+              I develop designs and builds interactive, component-based user
+              interfaces for web applications, managing state, optimizing
+              performance, and integrating with APIs to create responsive and
+              scalable front-end experiences.
+            </p>
+            <a href="#" class="read">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-apple" style="color: #74c0fc"></i>
+            <h2>Node-js</h2>
+            <p>
+              I build scalable server-side applications, designs and implements
+              RESTful APIs, manage databases with tools like PostgreSQL, handles
+              authentication and security, optimizes server performance, and
+              integrates with front-end systems for full-stack functionality.
+            </p>
+            <a href="#" class="read">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <!-- Projects Page-->
+    <section class="projects" id="projects">
+      <div class="container1">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="technical-bars">
+          <div class="bar">
+            <i class="fa-brands fa-html5" style="color: #fcad74"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span data-width="90"></span>
+              <!-- Added data-width for potential CSS use -->
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-css3-alt" style="color: #0578f3"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span data-width="95"></span>
+              <!-- Added data-width -->
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-square-js" style="color: #f1fc74"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span data-width="80"></span>
+              <!-- Added data-width -->
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-node-js" style="color: #74fc86"></i>
+            <div class="info">
+              <span>Node js</span>
+            </div>
+            <div class="progress-line node-js">
+              <span data-width="70"></span>
+              <!-- Added data-width -->
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-react" style="color: #74fcfc"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <!-- Changed class to 'react' for consistency -->
+              <span data-width="60"></span>
+              <!-- Added data-width -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              <!-- Changed to path-1 to match CSS -->
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              <!-- Changed to path-2 -->
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              <!-- Changed to path-3 -->
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              <!-- Changed to path-4 -->
+            </svg>
+            <div class="percentage">87%</div>
+            <div class="text">TeamWork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Page-->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>
+          Let’s build something amazing together—, be it crafting dynamic
+          front-ends pages with React, powering back-ends with Node.js, or
+          full-stack solutions using JavaScript; I'm ready to collaborate on
+          your next project or any gig available.
+        </p>
+        <div class="contact-list">
+          <li><i class="fa-solid fa-paper-plane"></i>divineibeh8@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> 09011745189</li>
+        </div>
+        <div class="contact-icon">
+          <a href="" style="--i: 1"><i class="fa-brands fa-x-twitter"></i></a>
+          <!-- Added --i for animation delay -->
+          <a href="" style="--i: 2"><i class="fa-brands fa-whatsapp"></i></a>
+          <!-- Added --i -->
+          <a href="" style="--i: 3"><i class="fa-brands fa-linkedin"></i></a>
+          <!-- Added --i -->
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+          <input type="" placeholder="Enter Your Subject" required />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="submit" class="send" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

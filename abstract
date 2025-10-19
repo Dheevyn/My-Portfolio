@@ -1,0 +1,583 @@
+* .about-image .about-pic .about-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: slateblue; 
+    border-radius: 50%;
+    border: .1px solid rgb(18, 18, 46);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.about-image .about-pic .about-img img {
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+}
+.about-image .about-pic{
+    position: relative;
+    width: 32vw;
+    height: 32vw;
+    /* background: rgb(0, 136, 255); 
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.about-image .about-pic::before, .about-image .about-pic::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(transparent, transparent, transparent, lawngreen);
+    transform: rotate(0deg);
+    animation: rotate-border2 10s linear infinite;
+}
+.about-image .about-pic::after{
+    animation-delay: -5s;
+}
+
+@keyframes rotate-border2 {
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+<section class="projects" id="projects">
+      <div class="container1">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="technical-bars">
+          <div class="bar">
+            <i class="fa-brands fa-html5" style="color: #fcad74"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-css3-alt" style="color: #0578f3"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-square-js" style="color: #f1fc74"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-node-js" style="color: #74fc86"></i>
+            <div class="info">
+              <span>Node js</span>
+            </div>
+            <div class="progress-line node-js">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-react" style="color: #74fcfc"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line node-js">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Creativity</div>
+        </div>
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">65%</div>
+          <div class="text">Communication</div>
+        </div>
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">75%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">87%</div>
+          <div class="text">TeamWork</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Page-->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos cum
+          fugiat et maiores impedit laborum, tenetur, cumque reiciendis unde
+          laudantium animi facilis voluptate quo dolorem aspernatur saepe
+          inventore voluptatibus. Laboriosam.
+        </p>
+        <div class="contact-list">
+          <li><i class="fa-solid fa-paper-plane"> divineibeh8@gmail.com</i></li>
+          <li><i class="fa-solid fa-phone"></i> 09011745189</li>
+        </div>
+        <div class="contact-icon">
+          <a href=""><i class="fa-solid fa-x-twitter"></i></a>
+          <a href=""><i class="fa-solid fa-whatsapp"></i></a>
+          <a href=""><i class="fa-solid fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+
+          <input type="" placeholder="Enter Your Subject" required />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="submit" class="send" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 {
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.bar {
+    font-size: 23px;
+}
+.technical-bars .bar {
+    margin-top: 40px 0;
+}
+.technical-bars .bar:first-child {
+    margin-top: 0;
+}
+.technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+.technical-bars .bar .info {
+    margin-bottom: 5px;
+}
+.technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+.technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #74c0fc;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.progress-line.html span {
+    width: 90%;
+}
+ .progress-line.css span {
+    width: 95%;
+}
+ .progress-line.javascript span {
+    width: 80%;
+}
+ .progress-line.node-js span {
+    width: 70%;
+}
+ .progress-line.react span {
+    width: 60%;
+}
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+}
+.progress-line.html span::after {
+    content: "90%";
+}
+.progress-line.css span::after {
+    content: "90%";
+}
+.progress-line.progress-line.javascript span::after {
+    content: "90%";
+}
+.progress-line.node-js span::after {
+    content: "90%";
+}
+.progress-line.react span::after {
+    content: "90%";
+}
+
+.progress-line span::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.radial-bars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}.path {
+    stroke-width: 10;
+    stroke: #74c0fc;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{
+    animation: animate-path1 1s 1slinear forwards;
+}
+.path-2{
+    animation: animate-path2 1s 1slinear forwards;
+}
+.path-3{
+    animation: animate-path3 1s 1slinear forwards;
+}
+.path-4{
+    animation: animate-path4 1s 1slinear forwards;
+}
+
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path2{
+    100%{
+        stroke-dashoffset: 175;
+    }
+}
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+.radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+}
+.contact-text h2 {
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-list h2 span {
+    color: #74c0fc;
+}
+.contact-text h4 {
+    margin: 15px 0;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text p{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+
+}
+.contact-list {
+    margin-bottom: 3rem;
+}
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i {
+    display: inline-block;
+    color: #74c0fc;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover {
+    transform: scale(1.01) translate(-5px);
+    color: #74c0fc;
+}
+.contact-icon {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #74c0fc;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #74c0fc;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.contact-icon i:hover {
+    background: #74c0fc;
+    color: black;
+    box-shadow: 0 0 20px #74c0fc;
+}
+.contact-form form {
+    position: relative;
+}
+.contact-form form input,form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    background: #555557;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send {
+    display: inline-block;
+    padding: 14px 60px;
+    background: #74c0fc;
+    font-size: 18px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px #74c0fc, 0 0 25px #74c0fc;
+}
+.contact-form form .send:hover {
+    background: transparent;
+    color: #74c0fc;
+    box-shadow: none;
+}
+
+
+html {
+    scroll-behavior: smooth;  /* New: Enables smooth scrolling when clicking anchor links */
+}
